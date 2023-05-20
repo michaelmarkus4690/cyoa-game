@@ -1,3 +1,41 @@
-body{
-    color:black
+@media only screen and (max-width: 800px) {
+    body .start-option-flex{
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    body .start-title{
+        font-size: 20vw;
+    }
+
+    body .startoption{
+        font-size: 10vw;
+    }
+}
+
+
+
+.start-body{
+    background-color: black;
+    padding: 0px;
+}   
+
+.start-option-flex{
+    display: flex;
+    flex-direction: column;
+}
+.start-title{
+    font-size: 10vw;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.startoption{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color:white;
+    font-size: 4.5vw;
 }
