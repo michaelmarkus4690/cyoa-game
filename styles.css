@@ -49,3 +49,38 @@
     color:white;
     font-size: 4.5vw;
 }
+
+.game{
+    display: none;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    width: 90vw;
+    height: 90vh;
+    border: solid white 2px;
+}
+
+.game-text{
+    font-size: x-large;
+    color:white;
+    width: 45vw;
+    margin-left: 22.5vw;;
+
+}
+
+.game-buttons{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    top: 5vh;
+    margin-left: 5vw;
+    justify-content: space-between;
+    height: 25vh;
+
+}
+
+.gamebutton{
+    height: 5vw;
+    width: 5vw;
+    border: solid white 2px;
+}
