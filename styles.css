@@ -2,6 +2,7 @@
     body .start-option-flex{
         align-items: center; 
         justify-content: center; 
+        text-align: center;
     }
 
     body .start-title{
@@ -13,7 +14,9 @@
     }
 }
 
-
+* {
+    text-decoration: none;
+}
 
 .start-body{
     background-color: black;
@@ -24,6 +27,8 @@
     display: flex;
     flex-direction: column;
 }
+
+
 .start-title{
     font-size: 10vw;
     font-family: 'Carrois Gothic SC', sans-serif;
@@ -31,6 +36,11 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
+
+}
+
+.start-option{
+    cursor: pointer;
 
 }
 
